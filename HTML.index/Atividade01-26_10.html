@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 01</title>
+    </head>
+    <body>
+        <!--HTML-->
+        <header>
+            <h1>CineDev - Meu catálogo de filmes e séries</h1>
+            <p>Um sistema onde desenvolvedores organizam filmes, séries e documentários que 
+            querem assistir nas horas vagas.</p>
+        </header>
+            <main>
+                <section>
+                    <h2>Cadastro de filmes/Séries/Documentários</h2>
+                    <form id="Formulário de cadastro">
+                        <div id="Campo de texto">
+                            <label for="Titulo">Qual é o titulo do FILME/SÉRIE?</label>
+                            <input type="text" name="Titulo" id="Titulozinho">
+                        </div>
+                    
+                        <div id="Menu de seleção">
+                            <label for="Categoria">Categoria</label>
+                            <select id="Categoria">
+                                <option value="Ação">Ação</option>
+                                <option value="Ficção Cientifica">Ficção Cientifica</option>                                   
+                                <option value="Animação">Animação</option>
+                                <option value="Documentário">Documentário</option>
+                            </select>
+                        </div>
+                    </form>
+                    
+                    <button type="Submit" id="Enviar">Cadastrar Titulo</button>
+                </section>
+                <hr>
+                <section>
+                    <h3>Lista de Titulos</h3>
+                    <div id="cards">
+                        <article>
+                            <h3>Kung fu Panda</h3>
+                            <p><strong>Categoria:</strong>Animação</p>
+                            <p><strong>Status:</strong>Pendente</p>
+                            <button type="submit" id="Marcar">Marcar como Assistido</button>
+                            <button type="submit" id="Excluir">Excluir</button>
+                        </article>
+                        <article>
+                            <h3>Carros</h3>
+                           <p><strong>Categoria:</strong>Animação</p>
+                            <p><strong>Status:</strong>Assistindo</p>
+                            <button type="submit" id="Marcar">Marcar como Assistido</button>
+                            <button type="submit" id="Excluir">Excluir</button>
+                        </article>
+                    </div>
+                </section>
+                <hr>
+                <footer id="Identificação">
+                    <p>Todos os direitos reservados.
+                    Feito por Lucas Rodigues Cardoso, Cursando "Informática para internet".
+                    Senai Vespasiano, 26/10/2026</p>
+                </footer>
+            </main>
+    </body>
+</html>
